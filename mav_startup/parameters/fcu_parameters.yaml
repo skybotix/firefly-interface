@@ -1,0 +1,15 @@
+/firefly/fcu/serial_port:            /dev/ttyS2
+/firefly/fcu/baudrate:               921600 #TODO: Increase to 8-fold value if Mastermind is configured correctly (Kernel patch applied!)
+/firefly/fcu/packet_rate_imu:        10.0
+/firefly/fcu/packet_rate_rc:         5.0
+/firefly/fcu/packet_rate_gps:        0.0
+/firefly/fcu/packet_rate_ssdk_debug: 20.0
+/firefly/fcu/packet_rate_ekf_state:  200.0
+/firefly/fcu/packet_rate_mag:        0.0
+/firefly/fcu/max_velocity_xy:        5.0
+/firefly/fcu/max_velocity_z:         2.0
+
+/firefly/fcu/state_estimation:       HighLevel_EKF
+/firefly/fcu/position_control:       HighLevel
+
+/firefly/fcu/battery_warning:        10.7

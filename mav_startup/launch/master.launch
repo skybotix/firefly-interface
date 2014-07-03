@@ -1,0 +1,16 @@
+<launch>
+   <node name="firefly" pkg="asctec_hl_interface" type="hl_node" output="screen" respawn="true" clear_params="true">       
+      <param name="frame_id" value="fcu" />
+      <rosparam file="$(find mav_startup)/parameters/fcu_parameters.yaml" />
+      <rosparam file="$(find mav_startup)/parameters/ssdk_parameters.yaml" />
+      <param name="capability_group" value="Asctec Firefly Interface"/>       
+   </node>
+	<node name="pose_sensor" pkg="msf_updates" type="pose_sensor" clear_params="true" output="screen">
+		<remap from="msf_core/hl_state_input" to="/fcu/ekf_state_out" />
+		<remap from="msf_core/correction" to="/fcu/ekf_state_in" />
+		<remap from="msf_updates/transform_input" to="/aslam/aslam_transform" />
+		<rosparam file="$(find mav_startup)/msf_parameters.yaml"/>
+		<param name="capability_group" value="Asctec Interface"></param>
+	</node>
+</launch>
+
