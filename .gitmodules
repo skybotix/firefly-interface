@@ -4,3 +4,9 @@
 [submodule "glog_catkin"]
 	path = glog_catkin
 	url = https://github.com/ethz-asl/glog_catkin.git
+[submodule "catkin_simple"]
+	path = catkin_simple
+	url = https://github.com/catkin/catkin_simple.git
+[submodule "ethzasl_msf"]
+	path = ethzasl_msf
+	url = https://github.com/skybotix/ethzasl_msf.git
