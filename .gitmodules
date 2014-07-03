@@ -1,0 +1,6 @@
+[submodule "ethzasl_msf"]
+	path = ethzasl_msf
+	url = https://github.com/ethz-asl/ethzasl_msf.git
+[submodule "asctec_mav_framework"]
+	path = asctec_mav_framework
+	url = https://github.com/ethz-asl/asctec_mav_framework.git
