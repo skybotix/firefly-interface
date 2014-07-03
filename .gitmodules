@@ -4,3 +4,6 @@
 [submodule "asctec_mav_framework"]
 	path = asctec_mav_framework
 	url = https://github.com/ethz-asl/asctec_mav_framework.git
+[submodule "glog_catkin"]
+	path = glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
