@@ -17,13 +17,13 @@
 /pose_sensor/pose_sensor/pose_noise_meas_p: 0.02
 /pose_sensor/pose_sensor/pose_noise_meas_q: 0.005
 
-/pose_sensor/pose_sensor/init/q_ic/w: 0.6252
-/pose_sensor/pose_sensor/init/q_ic/x: 0
-/pose_sensor/pose_sensor/init/q_ic/y: 0.7804
-/pose_sensor/pose_sensor/init/q_ic/z: 0
-/pose_sensor/pose_sensor/init/p_ic/x: 0.1   
-/pose_sensor/pose_sensor/init/p_ic/y: 0.0
-/pose_sensor/pose_sensor/init/p_ic/z: -0.03
+/pose_sensor/pose_sensor/init/q_ic/x: 0.8104879477673954
+/pose_sensor/pose_sensor/init/q_ic/y: 0.0045928756643425165
+/pose_sensor/pose_sensor/init/q_ic/z: 0.585548480607019
+/pose_sensor/pose_sensor/init/q_ic/w: -0.014871747568429544
+/pose_sensor/pose_sensor/init/p_ic/x: 0.11800162330923535   
+/pose_sensor/pose_sensor/init/p_ic/y: -0.01325381326008218
+/pose_sensor/pose_sensor/init/p_ic/z: -0.03936580149079455
 
 /pose_sensor/pose_sensor/pose_fixed_scale: true
 /pose_sensor/pose_sensor/pose_fixed_p_ic: true

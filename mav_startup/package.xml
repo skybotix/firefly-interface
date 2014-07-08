@@ -1,0 +1,13 @@
+<package>
+  <name>mav_startup</name>
+  <version>1.0.0</version>
+  <description>startup scripts and launch files</description>
+  <maintainer email="sammy.omari@skybotix.com">Sammy Omari</maintainer>
+
+  <license>GPLv3</license>
+
+  <author>Sammy Omari</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

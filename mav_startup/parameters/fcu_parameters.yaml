@@ -1,5 +1,5 @@
 /firefly/fcu/serial_port:            /dev/ttyS2
-/firefly/fcu/baudrate:               921600 #TODO: Increase to 8-fold value if Mastermind is configured correctly (Kernel patch applied!)
+/firefly/fcu/baudrate:               115200 #TODO: Increase to 8-fold value if Mastermind is configured correctly (Kernel patch applied!)
 /firefly/fcu/packet_rate_imu:        10.0
 /firefly/fcu/packet_rate_rc:         5.0
 /firefly/fcu/packet_rate_gps:        0.0
